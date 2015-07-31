@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Imatinib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP8356.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /D _WIN32_WINNT=0x0501 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /Fr"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\SERVER1_BACKUP\PROJECT\IDAIMATINIB\IMATINIB\Detours.cpp"
+"Z:\SERVER1_BACKUP\PROJECT\IDAIMATINIB\IMATINIB\DllMain.cpp"
+"Z:\SERVER1_BACKUP\PROJECT\IDAIMATINIB\IMATINIB\HelperFunctions.cpp"
+"Z:\SERVER1_BACKUP\PROJECT\IDAIMATINIB\IMATINIB\IniFileHandlers.cpp"
+"Z:\SERVER1_BACKUP\PROJECT\IDAIMATINIB\IMATINIB\MemorySearchFunctions.cpp"
+"Z:\SERVER1_BACKUP\PROJECT\IDAIMATINIB\IMATINIB\psapi.cpp"
+"Z:\SERVER1_BACKUP\PROJECT\IDAIMATINIB\IMATINIB\ReverseCodeEngine.cpp"
+"Z:\SERVER1_BACKUP\PROJECT\IDAIMATINIB\IMATINIB\ServerStartStop.cpp"
+"Z:\SERVER1_BACKUP\PROJECT\IDAIMATINIB\IMATINIB\toolhelp.cpp"
+]
+Creating command line "cl.exe @C:\Users\user\AppData\Local\Temp\RSP8356.tmp" 
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP8357.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib Detours.lib capstone_dll.lib /nologo /dll /pdb:none /machine:I386 /nodefaultlib:"libcmt.lib libcpmt.lib" /out:"Release/Imatinib.dll" /implib:"Release/Imatinib.lib" 
+.\Release\Detours.obj
+.\Release\DllMain.obj
+.\Release\HelperFunctions.obj
+.\Release\IniFileHandlers.obj
+.\Release\MemorySearchFunctions.obj
+.\Release\psapi.obj
+.\Release\ReverseCodeEngine.obj
+.\Release\ServerStartStop.obj
+.\Release\toolhelp.obj
+]
+Creating command line "link.exe @C:\Users\user\AppData\Local\Temp\RSP8357.tmp"
+<h3>Output Window</h3>
+Compiling...
+Detours.cpp
+DllMain.cpp
+HelperFunctions.cpp
+IniFileHandlers.cpp
+MemorySearchFunctions.cpp
+psapi.cpp
+ReverseCodeEngine.cpp
+ServerStartStop.cpp
+toolhelp.cpp
+Generating Code...
+Linking...
+   Creating library Release/Imatinib.lib and object Release/Imatinib.exp
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP9F8B.tmp" with contents
+[
+/nologo /o"Release/Imatinib.bsc" 
+.\Release\Detours.sbr
+.\Release\DllMain.sbr
+.\Release\HelperFunctions.sbr
+.\Release\IniFileHandlers.sbr
+.\Release\MemorySearchFunctions.sbr
+.\Release\psapi.sbr
+.\Release\ReverseCodeEngine.sbr
+.\Release\ServerStartStop.sbr
+.\Release\toolhelp.sbr]
+Creating command line "bscmake.exe @C:\Users\user\AppData\Local\Temp\RSP9F8B.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Imatinib.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
